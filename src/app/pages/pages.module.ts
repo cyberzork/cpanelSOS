@@ -10,6 +10,7 @@ import { Graficas1Component } from './graficas1/graficas1.component';
 
 // graficos
 import { ChartsModule } from 'ng2-charts';
+import { MapComponent } from '../components/map/map.component';
 
 // Rutas
 import { PAGES_ROUTES } from './pages.routes';
@@ -18,6 +19,9 @@ import { PAGES_ROUTES } from './pages.routes';
 import { IncrementadorComponent } from '../components/incrementador/incrementador.component';
 import { GraficoDonaComponent } from '../components/grafico-dona/grafico-dona.component';
 import { AccountSettingsComponent } from './account-settings/account-settings.component';
+import { PromesasComponent } from './promesas/promesas.component';
+import { UbicacionComponent } from './ubicacion/ubicacion.component';
+
 
 
 
@@ -27,9 +31,12 @@ import { AccountSettingsComponent } from './account-settings/account-settings.co
         DashboardComponent,
         ProgressComponent,
         Graficas1Component,
+        MapComponent,
         IncrementadorComponent,
         GraficoDonaComponent,
-        AccountSettingsComponent
+        AccountSettingsComponent,
+        PromesasComponent,
+        UbicacionComponent
     ],
     exports: [
         DashboardComponent,
